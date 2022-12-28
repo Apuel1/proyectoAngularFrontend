@@ -1,0 +1,84 @@
+.carta {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.cambio {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.pagina{
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    color: white;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+}
+
+
+.imagen {
+    border-radius: 20px;
+}
+
+.pad {
+    padding: 30px;
+}
+
+.acerca {
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    padding-bottom: 25px;
+}
+
+#texto {
+    padding-left: 30%;
+    padding-right: 30%;
+    text-align: left;
+}
+
+#formulario {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), var(--bs-bg-opacity)) !important;
+    color: white;
+    padding-top: 5%;
+
+}
+
+.titulo {
+    padding-bottom: 2%;
+}
+
+.contacto {
+    background-color: gray;
+}
+
+.imagen-redes {
+    border-radius: 30%;
+
+}
+
+
+.copy {
+    color: white;
+    font-size: 71%;
+    padding: 1.2%;
+}
+
+
+#portfolio {
+    padding-top: 5%;
+}
+
+#acercade {
+    padding-top: 5%;
+}
